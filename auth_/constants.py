@@ -1,0 +1,6 @@
+USER_ROLE_CLIENT = 1
+USER_ROLE_MANAGER = 2
+USER_ROLES = (
+    (USER_ROLE_CLIENT, 'client'),
+    (USER_ROLE_MANAGER, 'manager'),
+)
