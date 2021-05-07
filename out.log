@@ -1,0 +1,399 @@
+2021-05-06 10:07:08,794 -- INFO:20 -- Bookmark created, ID: WebSiteBookmark object (9)
+2021-05-06 10:08:15,637 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py changed, reloading.
+2021-05-06 10:08:42,494 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py changed, reloading.
+2021-05-06 10:09:37,530 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py changed, reloading.
+2021-05-06 12:24:51,419 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/__init__.py changed, reloading.
+2021-05-06 12:25:01,330 -- WARNING:30 -- Not Acceptable: /auth/create_user
+2021-05-06 12:25:29,568 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:29:36,366 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:29:36,814 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:31:34,430 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:31:34,783 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:31:51,375 -- WARNING:30 -- Unauthorized: /auth/login/
+2021-05-06 12:31:55,400 -- INFO:20 -- token created
+2021-05-06 12:32:24,065 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:32:24,425 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:32:40,068 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:32:40,438 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:33:34,790 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:33:35,179 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:33:39,543 -- WARNING:30 -- Unauthorized: /auth/login/
+2021-05-06 12:33:54,959 -- INFO:20 -- token deleted
+2021-05-06 12:38:41,044 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:38:41,418 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:39:20,871 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:39:21,263 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:51:05,727 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:51:41,847 -- WARNING:30 -- Unauthorized: /password_manager/website_password/
+2021-05-06 12:52:16,391 -- WARNING:30 -- Unauthorized: /password_manager/website_password/
+2021-05-06 12:52:17,724 -- WARNING:30 -- Unauthorized: /password_manager/website_password/
+2021-05-06 12:52:18,545 -- WARNING:30 -- Unauthorized: /password_manager/website_password/
+2021-05-06 12:54:45,554 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:54:45,936 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:55:08,073 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:55:08,456 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:56:38,281 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:56:38,702 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 12:57:06,231 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 12:57:06,637 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:00:20,246 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-06 13:00:20,680 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:16:53,933 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py changed, reloading.
+2021-05-06 13:16:54,358 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:45:34,424 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 13:45:34,996 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:47:42,418 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 13:47:42,836 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:47:50,756 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 13:47:51,094 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:47:59,074 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 13:47:59,424 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 13:59:29,289 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 13:59:29,961 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:00:13,955 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:00:14,350 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:01:21,753 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:01:22,153 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:02:11,242 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:02:11,647 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:03:40,055 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/urls.py changed, reloading.
+2021-05-06 14:03:40,769 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:05:29,195 -- ERROR:40 -- Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 17, in create
+    serializer = self.get_serializer(data=request.data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/generics.py", line 122, in get_serializer_class
+    assert self.serializer_class is not None, (
+AssertionError: 'ProfileViewSet' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+2021-05-06 14:05:41,557 -- ERROR:40 -- Internal Server Error: /auth/profile/login
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/middleware/common.py", line 86, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/auth/profile/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2021-05-06 14:05:48,229 -- WARNING:30 -- Method Not Allowed: /auth/profile/login/
+2021-05-06 14:08:10,407 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:08:11,076 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:08:12,826 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/serializers.py changed, reloading.
+2021-05-06 14:08:13,171 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:08:14,827 -- WARNING:30 -- Method Not Allowed: /auth/profile/login/
+2021-05-06 14:08:15,534 -- WARNING:30 -- Method Not Allowed: /auth/profile/login/
+2021-05-06 14:08:19,453 -- WARNING:30 -- Not Found: /auth/profile/login/
+2021-05-06 14:08:34,976 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: upload_photo() takes 1 positional argument but 2 were given
+2021-05-06 14:10:25,846 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:10:26,252 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:10:39,798 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:10:40,168 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:10:56,924 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:10:57,366 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:14:07,139 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:14:07,554 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:16:28,007 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:16:28,389 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:16:29,018 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 53, in upload_photo
+    print(request.data.image)
+AttributeError: 'QueryDict' object has no attribute 'image'
+2021-05-06 14:16:47,157 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 53, in upload_photo
+    print(request.data)
+AttributeError: 'QueryDict' object has no attribute 'image'
+2021-05-06 14:16:47,231 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:16:47,872 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:17:07,182 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:17:07,531 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:17:23,308 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:17:23,671 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:18:14,152 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-06 14:18:14,534 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:18:16,367 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: auth__profile.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 54, in upload_photo
+    profile = Profile.objects.get(user=request.user)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 402, in get
+    num = len(clone)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: auth__profile.photo
+2021-05-06 14:18:18,135 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: auth__profile.photo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 54, in upload_photo
+    profile = Profile.objects.get(user=request.user)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 402, in get
+    num = len(clone)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: auth__profile.photo
+2021-05-06 14:18:39,794 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-06 14:18:42,833 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 54, in upload_photo
+    profile = Profile.objects.get(user=request.user)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 406, in get
+    raise self.model.DoesNotExist(
+auth_.models.Profile.DoesNotExist: Profile matching query does not exist.
+2021-05-06 14:18:44,737 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 54, in upload_photo
+    profile = Profile.objects.get(user=request.user)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 406, in get
+    raise self.model.DoesNotExist(
+auth_.models.Profile.DoesNotExist: Profile matching query does not exist.
+2021-05-06 14:18:45,428 -- ERROR:40 -- Internal Server Error: /auth/profile/upload_photo/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 54, in upload_photo
+    profile = Profile.objects.get(user=request.user)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 406, in get
+    raise self.model.DoesNotExist(
+auth_.models.Profile.DoesNotExist: Profile matching query does not exist.
+2021-05-06 14:18:53,111 -- WARNING:30 -- Not Acceptable: /auth/create_user
+2021-05-06 14:18:55,653 -- WARNING:30 -- Not Acceptable: /auth/create_user
+2021-05-07 08:21:03,813 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-07 09:02:54,455 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-07 09:03:12,818 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-07 09:05:16,916 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py changed, reloading.
+2021-05-07 09:05:17,273 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-07 09:47:34,163 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/models.py changed, reloading.
+2021-05-07 09:47:34,990 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-07 09:49:23,347 -- INFO:20 -- Watching for file changes with StatReloader

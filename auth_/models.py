@@ -1,9 +1,9 @@
 from django.conf import settings
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, UserManager
+from django.contrib.auth.models import AbstractUser, PermissionsMixin, UserManager
 from django.contrib.auth.base_user import BaseUserManager
-
 from . import constants
+from .validators import validate_name, validate_size, validate_extension
 
 
 class MainUserManager(BaseUserManager):
@@ -34,7 +34,7 @@ class MainUserManager(BaseUserManager):
     #     return self._create_user(email, password, **extra_fields)
 
 
-class MainUser(AbstractBaseUser, PermissionsMixin):
+class MainUser(AbstractUser):
     username = models.CharField(max_length=100, unique=True, verbose_name='User')
     email = models.EmailField(max_length=100, unique=True, verbose_name='Email address')
     first_name = models.CharField(max_length=50, null=True, blank=True, verbose_name='First name')
@@ -44,7 +44,7 @@ class MainUser(AbstractBaseUser, PermissionsMixin):
     role = models.CharField(choices=constants.USER_ROLES, default=constants.USER_ROLE_CLIENT,
                             max_length=30, verbose_name='Role')
 
-    objects = UserManager()
+    objects = MainUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
@@ -57,6 +57,8 @@ class MainUser(AbstractBaseUser, PermissionsMixin):
 class Profile(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, verbose_name='Profile')
     country = models.CharField(blank=True, null=True, max_length=100, verbose_name='Birthday date')
+    photo = models.ImageField(upload_to='avatars', validators=[validate_name, validate_size, validate_extension],
+                              null=True, blank=True)
 
     class Meta:
         verbose_name = 'Profile'
