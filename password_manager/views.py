@@ -1,6 +1,4 @@
 import logging
-from logging.handlers import RotatingFileHandler
-from django.db import IntegrityError
 from rest_framework import viewsets, status
 from rest_framework.decorators import action, api_view
 from rest_framework.response import Response
@@ -69,6 +67,7 @@ class WebSitePasswordViewSet(viewsets.ModelViewSet):
 	pagination_class = LimitOffsetPagination
 
 	def perform_create(self, serializer):
+		serializer.is_valid(raise_exception=True)
 		serializer.save()
 		logging.info(f'WebSitePassword created, ID: {serializer.instance}')
 
@@ -80,6 +79,7 @@ class WifiPasswordViewSet(viewsets.ModelViewSet):
 	pagination_class = LimitOffsetPagination
 
 	def perform_create(self, serializer):
+		serializer.is_valid(raise_exception=True)
 		serializer.save()
 		logging.info(f'WifiPassword created, ID: {serializer.instance}')
 
@@ -91,5 +91,6 @@ class WebSiteBookmarkViewSet(viewsets.ModelViewSet):
 	pagination_class = LimitOffsetPagination
 
 	def perform_create(self, serializer):
+		serializer.is_valid(raise_exception=True)
 		serializer.save()
 		logging.info(f'Bookmark created, ID: {serializer.instance}')

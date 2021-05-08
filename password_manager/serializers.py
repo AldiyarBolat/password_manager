@@ -9,11 +9,13 @@ class BaseCollectionSerializer(serializers.ModelSerializer):
 
 class PasswordCollectionSerializer(BaseCollectionSerializer):
     class Meta:
+        model = PasswordCollection
         fields = ('name',)
 
 
 class PasswordCollectionsSerializer(BaseCollectionSerializer):
     class Meta:
+        model = PasswordCollection
         fields = '__all__'
 
 
