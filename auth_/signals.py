@@ -5,6 +5,7 @@ from rest_framework.authtoken.models import Token
 import logging
 from password_manager.models import WebSitePassword, PasswordCollection
 
+
 logging.basicConfig(
     level=logging.INFO,
     filename='out.log',

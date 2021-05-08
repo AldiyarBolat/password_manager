@@ -22,16 +22,20 @@ class MainUserManager(BaseUserManager):
         return user
 
     def create_user(self, email, password=None, **extra_fields):
+        extra_fields.setdefault('is_staff', False)
+        extra_fields.setdefault('is_superuser', False)
         return self._create_user(email, password, **extra_fields)
 
-    # def create_superuser(self, email, password, **extra_fields):
-    #     extra_fields.setdefault('is_superuser', True)
-    #     extra_fields.setdefault('is_staff', True)
-    #
-    #     if extra_fields.get('is_superuser') is not True:
-    #         raise ValueError('Superuser must have is_superuser=True.')
-    #
-    #     return self._create_user(email, password, **extra_fields)
+    def create_superuser(self, email, password, **extra_fields):
+        extra_fields.setdefault('is_superuser', True)
+        extra_fields.setdefault('is_staff', True)
+
+        if extra_fields.get('is_staff') is not True:
+            raise ValueError('Superuser must have is_staff=True.')
+        if extra_fields.get('is_superuser') is not True:
+            raise ValueError('Superuser must have is_superuser=True.')
+
+        return self._create_user(email, password, **extra_fields)
 
 
 class MainUser(AbstractUser):
@@ -41,13 +45,14 @@ class MainUser(AbstractUser):
     last_name = models.CharField(max_length=50, null=True, blank=True, verbose_name='Last name')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created')
     is_active = models.BooleanField(default=True, verbose_name='Active')
+    is_staff = models.BooleanField(default=False)
     role = models.CharField(choices=constants.USER_ROLES, default=constants.USER_ROLE_CLIENT,
                             max_length=30, verbose_name='Role')
 
     objects = MainUserManager()
 
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username']
+    # USERNAME_FIELD = 'email'
+    # REQUIRED_FIELDS = []
 
     class Meta:
         verbose_name = 'User'

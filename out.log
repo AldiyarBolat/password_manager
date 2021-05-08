@@ -543,3 +543,312 @@ AssertionError: Class PasswordCollectionsSerializer missing "Meta.model" attribu
 2021-05-08 10:57:15,986 -- INFO:20 -- Watching for file changes with StatReloader
 2021-05-08 10:59:39,103 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py changed, reloading.
 2021-05-08 10:59:39,452 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:13:57,492 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:14:36,235 -- INFO:20 -- WebSitePassword created, ID: WebSitePassword object (3)
+2021-05-08 11:14:54,614 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:14:55,067 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:14:58,345 -- ERROR:40 -- Internal Server Error: /password_manager/website_password/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 423, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+2021-05-08 11:15:08,659 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:15:09,035 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:18:08,482 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:18:08,913 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:18:27,830 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:18:28,214 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:19:14,126 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:19:14,480 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:19:16,862 -- INFO:20 -- WebSitePassword created, ID: WebSitePassword object (4)
+2021-05-08 11:19:49,826 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:19:50,205 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:20:54,833 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:20:55,255 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:24:07,966 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:24:08,325 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:26:23,767 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 11:26:24,156 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:26:34,813 -- ERROR:40 -- Internal Server Error: /password_manager/create_password_collection
+2021-05-08 11:30:43,195 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/serializers.py changed, reloading.
+2021-05-08 11:30:43,643 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:30:45,128 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/serializers.py changed, reloading.
+2021-05-08 11:30:45,482 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:32:41,252 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-08 11:32:41,895 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:32:49,419 -- ERROR:40 -- Internal Server Error: /auth/create_user
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/views.py", line 20, in create_user
+    user = User.objects.create_user(username=request.data.get('username'),
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py", line 25, in create_user
+    return self._create_user(email, password, **extra_fields)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py", line 21, in _create_user
+    user.save(using=self._db)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/base.py", line 740, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/base.py", line 788, in save_base
+    post_save.send(
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 173, in send
+    return [
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 174, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py", line 21, in user_created
+    serializer = ProfileSerializer(user=instance, country='KZ')
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 115, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'user'
+2021-05-08 11:33:20,262 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-08 11:33:20,780 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:33:24,322 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-08 11:33:24,885 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:33:28,014 -- WARNING:30 -- Not Acceptable: /auth/create_user
+2021-05-08 11:48:11,173 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/serializers.py changed, reloading.
+2021-05-08 11:49:16,559 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:49:42,923 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-08 11:49:43,349 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:49:47,023 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/signals.py changed, reloading.
+2021-05-08 11:49:47,393 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:59:00,349 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 11:59:03,369 -- WARNING:30 -- Not Found: /
+2021-05-08 11:59:03,411 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 11:59:06,419 -- WARNING:30 -- Not Found: /
+2021-05-08 11:59:07,229 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:00:33,043 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:06:47,295 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py changed, reloading.
+2021-05-08 12:06:47,652 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:07:43,302 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py changed, reloading.
+2021-05-08 12:07:43,647 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:09:24,991 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py changed, reloading.
+2021-05-08 12:09:25,693 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:10:05,355 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/models.py changed, reloading.
+2021-05-08 12:10:05,707 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:10:27,147 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:11:25,705 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:11:51,579 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:16:15,483 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/auth_/admin.py changed, reloading.
+2021-05-08 12:16:15,849 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:16:22,975 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:16:24,663 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:17:51,888 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/admin.py changed, reloading.
+2021-05-08 12:17:52,240 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:18:00,382 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:18:02,432 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:18:05,460 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:18:07,868 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:18:09,658 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:25:02,799 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:25:05,421 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:25:11,506 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:25:29,381 -- INFO:20 -- token deleted
+2021-05-08 12:26:17,854 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:27:06,363 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:28:41,345 -- INFO:20 -- WebSitePassword created, ID: WebSitePassword object (5)
+2021-05-08 12:28:48,283 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:29:25,173 -- INFO:20 -- WifiPassword created, ID: WifiPassword object (1)
+2021-05-08 12:29:31,010 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:29:48,108 -- ERROR:40 -- Internal Server Error: /password_manager/website_bookmark/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py", line 95, in perform_create
+    serializer.save()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py", line 78, in create
+    website_password = WebSitePassword.objects.get(name=validated_data['website_password']['name'])
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 406, in get
+    raise self.model.DoesNotExist(
+password_manager.models.WebSitePassword.DoesNotExist: WebSitePassword matching query does not exist.
+2021-05-08 12:31:46,996 -- WARNING:30 -- Not Found: /favicon.ico
+2021-05-08 12:32:01,786 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 12:32:02,153 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:32:06,436 -- ERROR:40 -- Internal Server Error: /password_manager/website_bookmark/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py", line 95, in perform_create
+    serializer.save()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py", line 78, in create
+    website_password = WebSitePassword.objects.get(id=validated_data['website_password']['id'])
+KeyError: 'id'
+2021-05-08 12:32:25,550 -- ERROR:40 -- Internal Server Error: /password_manager/website_bookmark/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py", line 95, in perform_create
+    serializer.save()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py", line 78, in create
+    website_password = WebSitePassword.objects.get(id=validated_data['website_password']['id'])
+KeyError: 'id'
+2021-05-08 12:32:38,276 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:32:42,369 -- ERROR:40 -- Internal Server Error: /password_manager/website_bookmark/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py", line 95, in perform_create
+    serializer.save()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py", line 78, in create
+    website_password = WebSitePassword.objects.get(id=validated_data['website_password']['id'])
+KeyError: 'id'
+2021-05-08 12:32:51,899 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 12:32:52,284 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:32:54,168 -- ERROR:40 -- Internal Server Error: /password_manager/website_bookmark/
+Traceback (most recent call last):
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/views.py", line 95, in perform_create
+    serializer.save()
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.create(validated_data)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py", line 78, in create
+    website_password = WebSitePassword.objects.get(name=validated_data['website_password']['name'])
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bolataldiyar/Desktop/password_manager/conf/venv/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+password_manager.models.WebSitePassword.MultipleObjectsReturned: get() returned more than one WebSitePassword -- it returned 5!
+2021-05-08 12:33:09,108 -- INFO:20 -- /Users/bolataldiyar/Desktop/password_manager/conf/password_manager/serializers.py changed, reloading.
+2021-05-08 12:33:09,511 -- INFO:20 -- Watching for file changes with StatReloader
+2021-05-08 12:33:10,957 -- INFO:20 -- Bookmark created, ID: WebSiteBookmark object (1)
